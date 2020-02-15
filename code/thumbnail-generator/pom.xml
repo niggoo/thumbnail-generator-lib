@@ -15,13 +15,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
-            <name>artifactory.auroria.at-snapshots</name>
-            <url>https://artifactory.auroria.at/artifactory/libs-snapshot-local</url>
+            <name>artifactory.auroria.io-snapshots</name>
+            <url>https://artifactory.auroria.io/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
         <repository>
             <id>central</id>
-            <name>artifactory.auroria.at-releases</name>
-            <url>https://artifactory.auroria.at/artifactory/libs-release-local</url>
+            <name>artifactory.auroria.io-releases</name>
+            <url>https://artifactory.auroria.io/artifactory/libs-release-local</url>
         </repository>
     </distributionManagement>
 
