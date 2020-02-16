@@ -7,7 +7,7 @@ create_artifact:
   cache:
     paths:
       - ./.m2/repository/
-  image: maven:3-jdk-8
+  image: maven:3-jdk-8-alpine
   stage: artifactory
   script:
     - mvn --settings $MAVEN_SETTINGS_XML clean deploy -f ./code/thumbnail-generator
